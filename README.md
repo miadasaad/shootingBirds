@@ -1,4 +1,5 @@
 # shootingBirds
+https://shootingbirds.netlify.app/   deployed project on netlify
 
 ## Game contains 2 pages and only one level 
 Index.html and game.html
