@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>start game</title>
+</head>
+<body>
+    <section class="main">
+        <div class="navbar">
+            <ul>
+                <li>Welcome: <span class="name"></span></li>
+                <li>Score: <span id="score">0</span></li>
+                <li>Time Limit: <span id="time">0:0</span></li>
+                <li>Killed Birds: <span id="killedBirds">0</span></li>
+            </ul>
+        </div>
+        <div class="container game ">
+             <img width="100" height="100" src="imgs/bird2.gif"/>
+             <p>Welcome <span class="name red" ></span></p>
+             <p class="lastScore red"></p>
+             <p class="lastTime red"></p>
+             
+             <button id="start">Start game</button>
+        </div>
+        <div class="images ">
+            <img class="bomb hidden"  src="imgs/bomb.jpg" />
+            <img class="bird hidden"  src="imgs/bird1.gif" />
+            <img class="bird hidden"  src="imgs/bird2.gif" />
+            <img class="bird hidden"  src="imgs/bird3.gif" />
+        </div>
+        <div class="container showScore hidden">
+            <h2></h2>
+            <p></p>
+          <img src="" alt="scoring"><br/>
+          <button>play again?</button>
+        </div>
+    </section>
+    <script src="functions.js"></script>
+    <script src="gamePageJs.js"></script>
+   
+</body>
+</html>

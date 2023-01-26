@@ -1,0 +1,123 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.main{
+    background-image: url(imgs/a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.main .container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    width: 555px;
+}
+
+.main .userData , .main .info,.showScore{
+        background-color: #22435B;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+        opacity: .8;
+}
+.main select{
+    margin: 12px 0px;
+    width: 61%;
+    padding: 10px 13px;
+    border-radius: 11px;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 22px;
+}
+.main select option{
+    background-color: transparent;
+}
+.main input{
+    background: transparent;
+    margin: 11px;
+    padding: 10px 13px;
+    border-radius: 11px;
+    border-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main input::placeholder,.main input{
+    color: white;
+    font-size: 22px;
+}
+.main button{
+    background-color: white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+.disabled{
+    cursor: not-allowed;
+}
+.enabled{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.info ul li{
+    margin-bottom: 34px;
+}
+.info ul li img{
+    top: 9px;
+    position: relative;
+    width:60px;
+}
+/* #22435B,,,#ffb1a3 */
+/* /////////////////////////////////////////////second page/////////////////////////////////////////////// */
+.navbar{
+    padding-top: 25px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    width: 25%;
+    background-color: #22435B;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    opacity: .8;
+}
+.game{
+    background-color:#22435B;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    opacity: .8;   
+}
+ .images .bomb{
+    mix-blend-mode: multiply;
+}
+
+.images img{
+    width: 150px !important;
+    height: 150px !important;
+    background: transparent;
+    position: absolute;
+}
+
+   .red{
+    color: red;
+   }
